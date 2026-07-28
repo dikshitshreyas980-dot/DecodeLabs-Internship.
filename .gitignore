@@ -1,8 +1,29 @@
-node_modules/
-dist/
-.env
-.env.local
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-.pytest_cache/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# VSCode
+.vscode/
+
+# MacOS
 .DS_Store
+
+# Ignore generated datasets or specific caches if any
+*.pkl
+!model/model.pkl
